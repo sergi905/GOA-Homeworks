@@ -1,2 +1,2 @@
-print(""and" operatori mushaobs ori pirobis dakmayofilebit, roca orive dakmayofildeba, pasuxi gamodis True, tu romelime an arcerti ar dakmayofilda, pasuxi gamodis False)
+"and" operatori mushaobs ori pirobis dakmayofilebit, roca orive dakmayofildeba, pasuxi gamodis True, tu romelime an arcerti ar dakmayofilda, pasuxi gamodis False
       
