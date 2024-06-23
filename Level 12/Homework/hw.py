@@ -1,53 +1,53 @@
-for i in range (11):
-    print (i)
+# for i in range (11):
+#     print (i)
 
 
 
 
-for i in range (5):
-    print("a zebra jumped over an elephant")
+# for i in range (5):
+#     print("a zebra jumped over an elephant")
 
 
 
 
-# meore davaleba _________________
-num = 1
-while num <= 5:
-    print(num)
-    num = num + 1    
+# # meore davaleba _________________
+# num = 1
+# while num <= 5:
+#     print(num)
+#     num = num + 1    
 
 
 
 
-num1 = 4
-while num1 >1:
-    print("hello")
-    num1 = num1 - 1    
+# num1 = 4
+# while num1 >1:
+#     print("hello")
+#     num1 = num1 - 1    
 
 
 
 
-# mesame davaleba _____________________________# 
-age = int(input("type your age please: ")) 
-if age >= 0:
-    print("your number is positive")
-else:
-    print("your number is negative")   
+# # mesame davaleba _____________________________# 
+# age = int(input("type your age please: ")) 
+# if age >= 0:
+#     print("your number is positive")
+# else:
+#     print("your number is negative")   
          
 
 
 
-input = int(input("input the number 10: "))    
-if input == 10:
-    print("correct")
-else:
-    print("incorrect")    
+# input = int(input("input the number 10: "))    
+# if input == 10:
+#     print("correct")
+# else:
+#     print("incorrect")    
 
-age2 = int(input("input your age: "))
-if age2 >0 and age2 <10:
-    print("child")
-else:
-    print("not a child")    
+# age2 = int(input("input your age: "))
+# if age2 >0 and age2 <10:
+#     print("child")
+# else:
+#     print("not a child")    
 
 
 
