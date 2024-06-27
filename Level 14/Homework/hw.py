@@ -74,9 +74,9 @@
 #     print("correct")    
 
 # #4)
-list = {1,10, 3}
-list[0] = "2"
-print(list1)
+# list = {1,10, 3}
+# list[0] = "2"
+# print(list1)
 
 #5)
 # password = "password123"
@@ -128,7 +128,70 @@ print(list1)
 
 
 
+# For loop HW
+# 1)
+for i in range(50+1):
+    print(i)
 
+# 2)
+for i in range(15+1):
+    print(i * i) 
+
+# 3)
+asd = 0
+fact = int(input("input your number: "))
+for i in  range (fact):
+    print(fact)
+
+# 4)
+for i in range (0, 100, 15):
+    print(i)
+# 5)
+forr = int(input("input a number: "))
+for i in range (10+1):
+    print(forr * i)
+
+
+# While Loop 
+# 1)
+
+
+# 2)
+
+
+# 3)
+digited = (input("input a number: ")) 
+
+
+
+
+
+
+
+
+
+# 1)
+year = int(input("input a year: "))
+# if year%4==0:
+#     print("this year is a leap year")
+# else:
+#     print("this year isnt a leap year")    
+
+
+# number = int(input("input your number: "))
+# if number >0:
+#     print("number is positive")
+# elif number<0:
+#     print("number is negative")
+# else:
+#     print("number is 0")        
+
+
+
+height = float(input("input your height in meters: "))
+weight = float(input("input your height in kilos"))
+bmi = weight/height**2
+print(bmi)
 
    
 
