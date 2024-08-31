@@ -1,0 +1,68 @@
+#seoul {
+    display: flex;
+    flex-direction: column;
+   
+
+    box-shadow: 3px 3px 15px rgb(135, 135, 135) ;
+    width: 500px;
+    height: 400px;
+    background-image:url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSBSc1v29ExzMEK1FMyDKwPZjG2Dej2x_ELjA&s") ;
+    
+    background-repeat: no-repeat;
+    background-size: 100%;
+    
+     
+    border-radius: 5px;
+
+    
+    
+}
+
+#tbilisi {
+    display: flex;
+    flex-direction: column;
+   
+
+    box-shadow: 3px 3px 15px rgb(135, 135, 135) ;
+    width: 500px;
+    height: 400px;
+    background-image:url("https://freespirit.tours/wp-content/uploads/elementor/thumbs/777-1-q311jbi93hhf9mszovrs1crccsucckgfufvfzync7c.jpg") ;
+    
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-
+     
+    border-radius: 5px;
+
+    
+}
+div{
+    display: flex;
+    flex-direction: row;
+    margin: 50px;
+
+    color: white;
+    justify-content: center;
+    align-items: center;
+}
+section{
+    display:flex;
+    flex-direction: row;
+}
+#newyork {
+    display: flex;
+    flex-direction: column;
+   
+
+    box-shadow: 3px 3px 15px rgb(135, 135, 135) ;
+    width: 500px;
+    height: 400px;
+    background-image:url("https://wallpaperswide.com/download/new_york_city_buildings-wallpaper-2048x1536.jpg") ;
+    
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-
+     
+    border-radius: 5px;
+}
+
