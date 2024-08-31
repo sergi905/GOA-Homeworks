@@ -1,0 +1,10 @@
+p{
+    width: 500px;
+    height:100px;
+    padding: 20px 10px 20px 10px;
+    margin-bottom: 100px;
+    border: 2px solid black;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing:;
+    display: flex;
+}

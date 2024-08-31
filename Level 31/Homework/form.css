@@ -1,0 +1,27 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgb(57, 115, 96);
+
+}
+
+form{
+    background-color: white;
+    box-shadow: 3px 3px color(srgb rgb(68, 68, 68) green blue);
+    padding: 50px;
+    padding-bottom: 100px;
+    width: 500px;
+}
+
+.bordershi{
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+.titles{
+    color: rgb(36, 177, 177);
+}
+border:active{
+    border-top: none;
+    border-left: none;
+    border-right: none;   
+}
