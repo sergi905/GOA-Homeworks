@@ -1,0 +1,13 @@
+p{
+    color: white; font-family: tahoma; 
+    text-align: center;
+}
+
+#one{
+    justify-self: baseline;
+}
+
+body{
+    background-image: url("thumb-1920-495521.jpg");
+    background-repeat: no-repeat;
+}

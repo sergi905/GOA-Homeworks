@@ -1,0 +1,14 @@
+.textclass{
+    text-align: center;
+    color: midnightblue;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+#textid{
+    text-align: center;
+    color: blue;
+    background-color: yellowgreen;
+    font-weight: bolder;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+}

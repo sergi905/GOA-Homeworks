@@ -1,0 +1,20 @@
+ul{
+    list-style: georgian;
+    list-style: inside;
+    text-align: center;
+    color: yellowgreen;
+    background-color: darkblue;
+}
+
+ol{
+    list-style: circle inside;
+    color: yellow;
+    background-color: black;
+}
+input{
+    border: 1px solid black
+}
+button{
+    border-radius: 10px;
+}
+

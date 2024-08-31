@@ -1,0 +1,11 @@
+#one {
+    font-family: tahoma; text-align: center; background-color: black; color: white;
+}
+
+label {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+form {
+    text-align: center;background-color: greenyellow;
+}
