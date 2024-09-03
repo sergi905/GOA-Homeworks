@@ -1,0 +1,53 @@
+.div1{
+    background-color: green;
+    width: 300px;
+    height: 200px;
+
+    margin-bottom: 100px;
+    
+    box-shadow: 3px 3px 15px gray;
+
+}
+.div2{
+    background-color: yellowgreen;
+    width: 300px;
+    height: 200px;
+
+    margin-bottom: 10px;
+    box-shadow: 3px 3px 15px gray;
+
+
+}
+
+/* magalitad ramdenime div-s shoris padding aris rom titoeulis shignit elementi ragaca raodenobit
+ mocildeba div-sis borders
+tumca div-ebs shoris margin aris tviton div borderebis shoris ragaca raodenobit dacileba */
+h4{
+    display:inline
+}
+
+.inline{
+    display: inline;
+}
+
+.qweqwe{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 500px;
+    height: 300px;
+    
+
+}
+div{
+    background-color:blue;
+    width: 500px;
+    height: 100px;
+
+
+
+}
+.ewqewq{
+    background-color: chocolate;
+    
+}
