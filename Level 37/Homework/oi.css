@@ -1,0 +1,25 @@
+button{
+    border: 3px solid black;
+    display: inline;
+
+
+
+    
+}
+button:active{
+    transform: translate(20px, 18px);
+    transform: scale(1.2);
+    transition:ease-in 0.1s;
+    
+    background-color: black;
+    color: white;
+}
+.transforminge{
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+    
+    position: relative;
+    top: 120px;
+}
