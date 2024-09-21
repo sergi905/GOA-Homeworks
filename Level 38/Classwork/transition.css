@@ -1,0 +1,116 @@
+.object{
+    background-color: green;
+    width: 500px;
+    height: 500px;
+
+
+
+    transition-property:background-color, transform;
+    transition-duration: 2s;
+    transition-timing-function:ease-in;
+    transition-delay: 2s;   
+
+
+    transform: scale(1.2);
+
+    animation-name: yoanimation;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease;
+    animation-delay:2s ;
+
+    animation
+    
+
+
+    
+}
+.object:hover{
+
+    background-color:blue;
+    
+    /* transition:background-color 0.2s ease-in; */
+    
+
+    /* div {
+        background-color: red;
+        width: 300px;
+        height: 300px;
+    
+        /* შემოკლებული გზა */
+        /* transition: background-color 1s ease-out 2s, transform 2s ease 0.25s; */
+    
+        
+        /* ვრცელი გზა */
+    
+        /* transition-property: background-color, transform;
+        transition-duration: 1s, 2s;
+        transition-timing-function: ease-out, ease;
+        transition-delay: 2s, 0.25s; */
+    }
+    
+    /* div:hover {
+        background-color: green;
+        transform: rotate(30deg);
+    } */
+
+    
+
+
+    
+    
+    
+
+
+}
+/*transition-timing-function igebs iset kutvnilebebs
+    romlebic gansazgvraven tranziciis ama tu im stils
+    sheidzleba chqara daiwyos da nela damtavrdes an piriqit
+    sheidzleba saertod erti sichqarit moxdes tranzicia
+    da sxva */ */
+
+
+
+
+    /* div {
+        background-color: red;
+        width: 300px;
+        height: 300px;
+    
+        animation: firstanim 5s ease 2s infinite alternate;
+    
+        /* animation-name: firstanim;
+        animation-duration: 5s;
+        animation-iteration-count: infinite;
+        animation-timing-function: ease;
+        animation-delay: 2s;
+        animation-direction: alternate; */
+    }
+    
+    @keyframes firstanim {
+        10% {
+            background-color: red;
+        }
+    
+        20% {
+            background-color: blue;
+        }
+    
+        40% {
+            background-color: green;
+        }
+    
+        60% {
+            background-color: yellowgreen;
+        }
+    
+        80% {
+            background-color: orange;
+        }
+    
+        100% {
+            background-color: red;
+        }
+    } 
+    
+    */
