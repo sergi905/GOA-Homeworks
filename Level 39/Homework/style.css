@@ -1,0 +1,76 @@
+body{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color:var(--bodybgcolor) ;
+    color: white;
+    width: 1440px;
+    
+    display: flex;
+    justify-content: center;
+
+    position: relative;
+    top: 20px;
+}
+:root{
+    --mwvane: hsl(75, 94%, 57%);
+    --bodybgcolor: hsl(0, 0%, 8%);
+    --formbgcolor: hsl(0,0%,12%);
+    --buttonbgcolor: hsl(0,0%,20%);
+
+
+
+}
+.buttons{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.fullform{
+    background-color: var(--formbgcolor);
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    padding: 40px;
+}
+button{
+    background-color: var(--buttonbgcolor);
+    width: 300px;
+    height: 40px;
+
+    border-radius: 8px;
+    border: 3px solid var(--buttonbgcolor);
+
+    color: white;
+}
+img{
+    border-radius: 50%;
+    width: 100px;
+}
+#london{
+    color: var(--mwvane);
+}
+@media (max-width:375px){
+    body{
+        display: flex;
+        justify-content: start;
+        
+        
+        
+        
+
+    
+    
+    }
+    .fullform{
+        transform:scale(0.7)
+    }
+    }
