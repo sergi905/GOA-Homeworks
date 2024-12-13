@@ -1,0 +1,10 @@
+#id_button+, #id_button_reset, #id_button_reset{
+    width: 500px;
+    aspect-ratio: 16/9;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
