@@ -7,7 +7,7 @@ function matrix_length_output(matrix){
     let counter_diagonal = Math.sqrt(counter_diagonal_to_be_square_rooted); 
 
     let outputter = console.log("width: "+ counter_width + " height: " + counter_height + " diagonal: " + counter_diagonal)
-     
+    console.log(outputter);
 }
 matrix_length_output(
     [
