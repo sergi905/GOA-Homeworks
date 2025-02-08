@@ -3,8 +3,7 @@ function twoSum(numbers, target) {
         for (let j = i+1; j<numbers.length;j++){
             if (numbers[i]+numbers[j] == target){
                 let indexnumbers = [];
-                indexnumbers.push(numbers[i]);
-                indexnumbers.push(numbers[j]);
+                indexnumbers.push(i,j);
                 return indexnumbers;
             }
         }
