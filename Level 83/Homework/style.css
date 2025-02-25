@@ -1,0 +1,15 @@
+#buttonmane{
+    background-color: rgb(31, 31, 31);
+    color: white;
+    font-family:"Champagnes & Limousines";
+    font-size:80px;
+    width: 300px;
+    
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(23, 23, 23);
+    
+}
