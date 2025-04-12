@@ -1,0 +1,68 @@
+body{
+    font-family: "carlito", "calibri";
+    font-size: larger;
+    background-image: url("./341a2ed99815f708aa80f623b6afe04d.jpg");
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+form{
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(146, 146, 146, 0.51);
+    flex-direction: column;
+    gap: 10px;
+    width: 300px;
+    position: relative;
+    top: 300px;
+    border: 3px solid white;
+    color: white;
+    
+}
+label{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 30%;
+}
+form input{
+    border-radius: 5px;
+    width: 50%;
+    flex-wrap: wrap;
+    padding: 10px;
+
+    
+}
+.divs{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.radios{
+    display: flex;
+    flex-direction: row;
+
+}
+.gender_radios{
+    display: flex;
+    flex-direction: row;
+}
+button{
+    background-color: aliceblue;
+    border: none;
+    align-self: center;
+    aspect-ratio: 11/4;
+    width: 100px;
+    height: 20px;
+    
+
+}
+#divsss{
+    display: flex;
+    justify-content: center;
+}

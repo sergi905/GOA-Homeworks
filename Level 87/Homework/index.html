@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+    <style>
+            /* Hide the image at the start */
+            #displayedImage {
+                display: none;
+                max-width: 300px; /* Limit image size */
+            }
+        </style>
+</head>
+<body>
+    <div id="div_for_pictures">
+        <img src="https://media2.dev.to/dynamic/image/width=1080,height=1080,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F096baapsqqt9fks0us99.png" id="react" alt="">
+        <img src="https://jbstechinfo.com/wp-content/uploads/2023/08/JavaScript-Symbol.png"  id="javascript" alt="">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQEc9A_S6BPxCDRp5WjMFEfXrpCu1ya2OO-Lw&s" id="html" alt="">
+        <img src="https://1000logos.net/wp-content/uploads/2020/09/CSS-Logo-2011.png" id="css" alt="">
+    </div>
+
+    <button id="react_button">React</button>
+    <button id="javascript_button">Javascript</button>
+    <button id="html_button">HTML</button>
+    <button id="css_button">css</button>
+
+    <div id="placeforpicture">
+        <img src="" id="DisplayedImage" alt="">
+    </div>
+
+    <script >
+        document.getElementById("div_for_pictures").style.display = "none";
+
+        // buttons
+        let react_button = document.getElementById("react_button");
+        let javascript_button = document.getElementById("javascript_button");
+        let html_button = document.getElementById("html_button");
+        let css_button = document.getElementById("css_button");
+
+
+        // pictures
+        let react_picture = document.getElementById("react");
+        let javascript_picture = document.getElementById("javascript");
+        let html_picture = document.getElementById("html");
+        let css_picture = document.getElementById("css");
+
+        // other neccess    ary
+        let DisplayedImage = document.getElementById("DisplayedImage");
+        let placeforpicture = document.getElementById("placeforpicture");
+
+        react_button.onclick = function(){
+            DisplayedImage.src= react_picture.src;
+            DisplayedImage.style.display = "block";
+
+        };
+
+        javascript_button.onclick = function(){
+            DisplayedImage.src= javascript_picture.src;
+            DisplayedImage.style.display = "block";
+
+        };
+
+        html_button.onclick = function(){
+            DisplayedImage.src= html_picture.src;
+            DisplayedImage.style.display = "block";
+
+        };
+        css_button.onclick = function(){
+            DisplayedImage.src = css_picture.src;
+            DisplayedImage.style.display = "block";
+
+        }
+    </script>
+</body>
+</html>
