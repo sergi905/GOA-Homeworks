@@ -1,0 +1,13 @@
+#calculator{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.numbers{
+    display: flex;
+    flex-direction: row;
+}
+.buttonmane{
+    display:flex;
+    width: 50px;
+}
