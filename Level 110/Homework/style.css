@@ -1,0 +1,6 @@
+#divOne{
+    width: 200px; 
+    height: 200px; 
+    color: black; 
+    transition: border-radius 0.5s;
+}
